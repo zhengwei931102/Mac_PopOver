@@ -13,6 +13,10 @@
 		84EEE4291E49BE3600CDEC5D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EEE4271E49BE3600CDEC5D /* MainMenu.xib */; };
 		84EEE4341E49BE3600CDEC5D /* POPOverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE4331E49BE3600CDEC5D /* POPOverTests.m */; };
 		84EEE43F1E49BE3600CDEC5D /* POPOverUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE43E1E49BE3600CDEC5D /* POPOverUITests.m */; };
+		84EEE44F1E49BECC00CDEC5D /* WC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE44D1E49BECC00CDEC5D /* WC.m */; };
+		84EEE4501E49BECC00CDEC5D /* WC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EEE44E1E49BECC00CDEC5D /* WC.xib */; };
+		84EEE4541E49BFB200CDEC5D /* LoginDetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EEE4521E49BFB200CDEC5D /* LoginDetailVC.m */; };
+		84EEE4551E49BFB200CDEC5D /* LoginDetailVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EEE4531E49BFB200CDEC5D /* LoginDetailVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,12 @@
 		84EEE43A1E49BE3600CDEC5D /* POPOverUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = POPOverUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EEE43E1E49BE3600CDEC5D /* POPOverUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = POPOverUITests.m; sourceTree = "<group>"; };
 		84EEE4401E49BE3600CDEC5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EEE44C1E49BECC00CDEC5D /* WC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WC.h; sourceTree = "<group>"; };
+		84EEE44D1E49BECC00CDEC5D /* WC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WC.m; sourceTree = "<group>"; };
+		84EEE44E1E49BECC00CDEC5D /* WC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WC.xib; sourceTree = "<group>"; };
+		84EEE4511E49BFB200CDEC5D /* LoginDetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginDetailVC.h; sourceTree = "<group>"; };
+		84EEE4521E49BFB200CDEC5D /* LoginDetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginDetailVC.m; sourceTree = "<group>"; };
+		84EEE4531E49BFB200CDEC5D /* LoginDetailVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginDetailVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +112,12 @@
 				84EEE4271E49BE3600CDEC5D /* MainMenu.xib */,
 				84EEE42A1E49BE3600CDEC5D /* Info.plist */,
 				84EEE4221E49BE3500CDEC5D /* Supporting Files */,
+				84EEE44C1E49BECC00CDEC5D /* WC.h */,
+				84EEE44D1E49BECC00CDEC5D /* WC.m */,
+				84EEE44E1E49BECC00CDEC5D /* WC.xib */,
+				84EEE4511E49BFB200CDEC5D /* LoginDetailVC.h */,
+				84EEE4521E49BFB200CDEC5D /* LoginDetailVC.m */,
+				84EEE4531E49BFB200CDEC5D /* LoginDetailVC.xib */,
 			);
 			path = POPOver;
 			sourceTree = "<group>";
@@ -236,7 +252,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				84EEE4261E49BE3600CDEC5D /* Assets.xcassets in Resources */,
+				84EEE4501E49BECC00CDEC5D /* WC.xib in Resources */,
 				84EEE4291E49BE3600CDEC5D /* MainMenu.xib in Resources */,
+				84EEE4551E49BFB200CDEC5D /* LoginDetailVC.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +281,8 @@
 			files = (
 				84EEE4241E49BE3500CDEC5D /* main.m in Sources */,
 				84EEE4211E49BE3500CDEC5D /* AppDelegate.m in Sources */,
+				84EEE44F1E49BECC00CDEC5D /* WC.m in Sources */,
+				84EEE4541E49BFB200CDEC5D /* LoginDetailVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
